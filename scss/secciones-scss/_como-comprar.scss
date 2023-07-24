@@ -1,0 +1,36 @@
+.como-comprar {
+    display: grid;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+
+
+}
+
+.como-comprar li {
+    border: 2px rgb(176, 5, 176) solid;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+@media (max-width: 650px) {
+
+
+    .como-comprar {
+
+        grid-template-rows: 90px 90px 90px 115px 130px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .como-comprar li {
+        overflow: auto;
+        text-align: center;
+        word-wrap: break-word;
+    }
+}

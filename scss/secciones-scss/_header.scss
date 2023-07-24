@@ -1,0 +1,59 @@
+/*header*/
+
+.logoh1 {
+    width: 120px;
+}
+
+.navbar{
+    background-color: #16a085 !important;
+    font-family: 'Oswald', sans-serif !important;
+
+}
+
+h1 {
+    color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+}
+
+nav {
+    color: rgb(114, 3, 184);
+}
+
+nav a {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(140, 3, 199) !important;
+    font-weight: bold !important;
+}
+
+.color-fondo:active{
+    background-color: white;
+
+}
+.menu {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.menu li {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+header {
+    box-shadow: 0px 10px 10px;
+    color: #018f72;
+}

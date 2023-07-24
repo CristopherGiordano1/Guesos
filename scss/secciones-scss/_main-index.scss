@@ -1,0 +1,85 @@
+
+/*imágenes del index*/
+.banner-principal {
+    width: 1490px;
+    height: 750px;
+}
+
+.banner-marcas {
+    width: 1490px;
+    height: 350px;
+}
+
+/* promociones del index */
+
+.titulo-promociones {
+    text-align: center;
+    font-size: 25px;
+}
+
+.promociones {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.promociones li {
+    display: flex;
+}
+
+.promociones img {
+    display: flex;
+    margin: 10px;
+    width: 250px;
+
+}
+
+
+.servicios {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.servicios li {
+    margin: 25px;
+}
+
+@media (max-width: 500px) {
+
+
+    .banner-principal {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .banner-marcas {
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+     
+    }
+
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .promociones {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+}
