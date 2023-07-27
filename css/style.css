@@ -137,7 +137,8 @@ main {
   .como-comprar li {
     overflow: auto;
     text-align: center;
-    word-wrap: break-word; } }
+    word-wrap: break-word;
+    padding: 15px; } }
 
 .mapa {
   padding: 0; }
