@@ -92,6 +92,9 @@ main {
   text-align: center;
   font-size: 20px; }
 
+.formulario-contacto {
+  margin: 30px; }
+
 /*imágenes de la sección "productos"*/
 .uno {
   max-width: 800px; }
@@ -138,6 +141,18 @@ main {
 
 .mapa {
   padding: 0; }
+
+.parrafos-donde-estamos {
+  margin: 10px;
+  text-align: center;
+  font-size: 20px; }
+
+.nuestras-sucursales {
+  margin: 20px; }
+
+.mapas-sucursales {
+  margin: 20px;
+  text-decoration: none; }
 
 @media (max-width: 500px) {
   #mapa-la-plata {
