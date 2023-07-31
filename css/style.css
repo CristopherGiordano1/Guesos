@@ -111,7 +111,12 @@ main {
   width: 500px;
   height: 200px; }
 
-/*imágenes de la sección "productos"*/
+.menu-productos {
+  text-align: center; }
+
+.menu-productos img {
+  width: 200px; }
+
 .uno {
   max-width: 800px; }
 
@@ -121,13 +126,6 @@ main {
 .tres {
   max-width: 800px; }
 
-.menu-productos {
-  text-align: center; }
-
-.menu-productos img {
-  width: 200px; }
-
-/* sección productos */
 .titulo-productos {
   margin: 30px; }
 
@@ -156,9 +154,6 @@ main {
     word-wrap: break-word;
     padding: 15px; } }
 
-.mapa {
-  padding: 0; }
-
 .parrafos-donde-estamos {
   margin: 10px;
   text-align: center;
@@ -170,10 +165,11 @@ main {
 .div-sucursales {
   display: flex;
   justify-content: space-evenly; }
-
-.mapas-sucursales {
-  margin: 20px;
-  text-decoration: none; }
+  .div-sucursales .mapas-sucursales {
+    margin: 20px;
+    text-decoration: none; }
+  .div-sucursales .mapa {
+    padding: 0; }
 
 @media (max-width: 500px) {
   #mapa-la-plata {

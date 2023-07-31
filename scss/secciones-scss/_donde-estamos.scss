@@ -1,6 +1,4 @@
-.mapa {
-    padding: 0;
-}
+
 .parrafos-donde-estamos{
     margin: 10px;
     text-align: center;
@@ -13,13 +11,16 @@
 .div-sucursales{
     display: flex;
     justify-content: space-evenly;
+    .mapas-sucursales{
+        margin: 20px;
+        text-decoration: none;
+    }
+    .mapa {
+        padding: 0;
+    }
 }
 
-.mapas-sucursales{
-    margin: 20px;
-    text-decoration: none;
-    
-}
+
 
 
 
