@@ -29,7 +29,12 @@ main {
   .logo {
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .navbar-toggler {
+    background-color: #8c03c7;
+    border-color: #8c03c7; }
+  .navbar-toggler-icon {
+    color: white; } }
 
 /*imágenes del index*/
 .banner-principal {
