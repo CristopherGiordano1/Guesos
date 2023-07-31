@@ -64,6 +64,9 @@ main {
   margin: 10px;
   width: 250px; }
 
+.promociones img:hover {
+  transform: scale(1.2); }
+
 .servicios {
   display: flex;
   text-align: center;
