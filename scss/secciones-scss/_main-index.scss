@@ -37,20 +37,22 @@
 
 .promociones img:hover {
     transform: scale(1.20);
+
 }
+
 
 .servicios {
     display: flex;
     text-align: center;
     list-style-type: none;
     padding: 0px;
-
+    animation: bounce;
+    animation-duration: 4s;
 }
 
 .servicios li {
     margin: 25px;
 }
-
 
 
 @media (max-width: 500px) {

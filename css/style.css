@@ -71,7 +71,9 @@ main {
   display: flex;
   text-align: center;
   list-style-type: none;
-  padding: 0px; }
+  padding: 0px;
+  animation: bounce;
+  animation-duration: 4s; }
 
 .servicios li {
   margin: 25px; }
