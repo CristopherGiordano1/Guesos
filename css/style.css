@@ -151,6 +151,10 @@ main {
 .nuestras-sucursales {
   margin: 20px; }
 
+.div-sucursales {
+  display: flex;
+  justify-content: space-evenly; }
+
 .mapas-sucursales {
   margin: 20px;
   text-decoration: none; }
