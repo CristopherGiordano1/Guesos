@@ -113,7 +113,7 @@ main {
 
 @media (max-width: 500px) {
   .section-contacto {
-    flex-direction: column;
+    flex-direction: column !important;
     text-align: center; } }
 
 .menu-productos {
