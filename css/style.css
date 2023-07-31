@@ -144,11 +144,10 @@ main {
   margin: 2px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 80px 80px 80px 80px 80px; }
-
-.como-comprar li {
-  border: 2px #b005b0 solid;
-  margin: 2px;
-  padding: 2px; }
+  .como-comprar li {
+    border: 2px #b005b0 solid;
+    margin: 2px;
+    padding: 2px; }
 
 @media (max-width: 650px) {
   .como-comprar {
@@ -235,6 +234,5 @@ header {
 footer {
   color: whitesmoke;
   text-align: center; }
-
-footer h3 {
-  font-size: 20px; }
+  footer h3 {
+    font-size: 20px; }

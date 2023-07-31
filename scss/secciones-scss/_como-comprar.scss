@@ -6,16 +6,15 @@
     margin: 2px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px 80px 80px 80px 80px;
+        li {
+        border: 2px rgb(176, 5, 176) solid;
+        margin: 2px;
+        padding: 2px;
+    
+    }
 
-
-}
-
-.como-comprar li {
-    border: 2px rgb(176, 5, 176) solid;
-    margin: 2px;
-    padding: 2px;
-
-}
+    }
+ 
 
 @media (max-width: 650px) {
 
