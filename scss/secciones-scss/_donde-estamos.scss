@@ -1,20 +1,22 @@
-
-.parrafos-donde-estamos{
+.parrafos-donde-estamos {
     margin: 10px;
     text-align: center;
     font-size: 20px;
 }
-.nuestras-sucursales{
+
+.nuestras-sucursales {
     margin: 20px;
 }
 
-.div-sucursales{
+.div-sucursales {
     display: flex;
     justify-content: space-evenly;
-    .mapas-sucursales{
+
+    .mapas-sucursales {
         margin: 20px;
         text-decoration: none;
     }
+
     .mapa {
         padding: 0;
     }
