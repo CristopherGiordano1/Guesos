@@ -8,7 +8,7 @@ input {
   padding: 5px;
   text-align: center;
   border-radius: 5px;
-  border-color: #cc8ce3; }
+  border-color: #8c03c7; }
 
 input:focus {
   color: #8c03c7; }
@@ -20,7 +20,7 @@ body {
 /*main*/
 main {
   background-color: #fcfced;
-  color: #018f72;
+  color: #16a085;
   padding: 5px;
   border-radius: 5px;
   box-shadow: 0px 5px 5px; }
@@ -194,16 +194,16 @@ main {
   font-family: 'Oswald', sans-serif !important; }
 
 h1 {
-  color: whitesmoke;
+  color: white;
   width: 400px;
   height: 50px;
   margin: 5px; }
 
 nav {
-  color: #7203b8; }
+  color: #8c03c7; }
 
 nav a {
-  color: whitesmoke !important;
+  color: white !important;
   text-decoration: none; }
 
 nav a:hover {
@@ -228,11 +228,11 @@ nav a:hover {
 
 header {
   box-shadow: 0px 10px 10px;
-  color: #018f72; }
+  color: #16a085; }
 
 /* pie de página */
 footer {
-  color: whitesmoke;
+  color: white;
   text-align: center; }
   footer h3 {
     font-size: 20px; }
